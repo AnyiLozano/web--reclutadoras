@@ -106,7 +106,7 @@ width: 50%;
   }
 
   @media screen and (min-width: 1920px) {
-    width: 40%;
+    width: 50%;
   }
 `;
 

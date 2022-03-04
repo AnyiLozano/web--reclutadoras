@@ -24,7 +24,7 @@ export const StyledDescription = styled.img`
   }
 
   @media screen and (min-width: 1920px) {
-    margin-top: 5%;
+    
   }
 `;
 
