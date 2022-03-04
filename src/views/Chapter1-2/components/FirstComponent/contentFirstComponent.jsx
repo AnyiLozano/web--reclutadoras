@@ -25,7 +25,7 @@ const ContentFirstComponent = (props) => {
         <StyledContainer>
           <div className="container">
             <div className="row">
-              <div className="col-md-8 col-sm-8 d-flex justify-content-end">
+              <div className="col-md-7 col-sm-6 d-flex justify-content-end">
                 <StyledDescription
                   src={require("../../../../assets/images/description-chapter1-view1.png")}
                   alt="Description"
@@ -33,7 +33,7 @@ const ContentFirstComponent = (props) => {
                   onClick={() => setOpenModal(true)}
                 />
               </div>
-              <div className="col-md-4 col-sm-4">
+              <div className="col-md-5 col-sm-6">
                 <div className="col-md-12 mb-2">
                   <StyledImageMenu1
                     src={require("../../../../assets/images/menu1.png")}
