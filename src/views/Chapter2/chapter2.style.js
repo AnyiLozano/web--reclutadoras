@@ -2,13 +2,13 @@ import styled from "styled-components";
 
 export const StyledImage = styled.img`
   width: 1024px;
-  height: 100vh;
+  height: 100%;
   ${({ active }) => (active ? "position: fixed; z-index: 1;" : "")}
 
-  @media screen and (min-width: 325px) and (max-width: 1199px) {
+  @media screen and (min-width: 325px) and (max-width: 915px) {
     width: 100%;
   }
-
+  
   @media screen and (min-width: 1920px) {
     width: 1200px;
   }
