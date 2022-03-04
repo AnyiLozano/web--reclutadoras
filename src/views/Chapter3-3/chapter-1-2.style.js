@@ -26,7 +26,7 @@ export const StyledImageLeft = styled.img`
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     left: 3%;
     width: 4%;
-    height: 16%;
+    height: auto;
   }
 `;
 
@@ -38,7 +38,7 @@ export const StyledImageRight = styled.img`
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     right: 3%;
     width: 4%;
-    height: 16%;
+    height: auto;
   }
 `;
 
@@ -74,9 +74,13 @@ export const StyledVideo1 = styled.video`
 `;
 
 export const StyledFourImage = styled.img`
-  @media screen and (min-width: 325px) and (max-width: 1199px) {
+  @media screen and (min-width: 325px) and (max-width: 915px) {
     width: 50%;
   }
+
+  @media screen and (min-width: 916px) and (max-width: 1199px) {
+    width: 70%;
+    height: 70%;
 `;
 
 export const StyledLink1 = styled.a`

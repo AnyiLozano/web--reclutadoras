@@ -5,8 +5,13 @@ export const StyledImage = styled.img`
   height: 100vh;
   ${({ active }) => (active ? "position: fixed; z-index: 1;" : "")}
 
-  @media screen and (min-width: 325px) and (max-width: 1199px) {
+  @media screen and (min-width: 325px) and (max-width: 915px) {
     width: 100%;
+  }
+
+  @media screen and (min-width: 916px) and (max-width: 1199px) {
+    width: 100%;
+    height: 100%;
   }
 `;
 
@@ -15,19 +20,26 @@ export const StyledImageText = styled.img`
   top: 50%;
   left: 33%;
 
-  @media screen and (min-width: 325px) and (max-width: 1199px) {
+  @media screen and (min-width: 325px) and (max-width: 915px) {
     width: 45%;
   }
+
+  
 `;
 
 export const StyledImageButton = styled.img`
   position: absolute;
-  top: 39%;
+  top: 42%;
   left: 74%;
   width: 3%;
 
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     left: 92%;
+  }
+
+  @media screen and (min-width: 916px) and (max-width: 1199px) {
+    width: 4%;
+    heigth: auto;
   }
 `;
 
@@ -38,6 +50,11 @@ export const StyledDescription = styled.img`
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     width: 45%;
   }
+
+  @media screen and (min-width: 916px) and (max-width: 1199px) {
+    width: 50%;
+    height: 60%;
+    left: 12%;
 `;
 
 export const StyledContent = styled.div`
@@ -52,18 +69,30 @@ export const StyledImageMenu1 = styled.img`
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     width: 65%;
   }
+
+  @media screen and (min-width: 916px) and (max-width: 1199px) {
+    width: 100%;
+    height: 60%;
 `;
 
 export const StyledImageMenu2 = styled.img`
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     width: 65%;
   }
+
+  @media screen and (min-width: 916px) and (max-width: 1199px) {
+    width: 100%;
+    height: 60%;
 `;
 
 export const StyledImageMenu3 = styled.img`
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     width: 65%;
   }
+
+  @media screen and (min-width: 916px) and (max-width: 1199px) {
+    width: 100%;
+    height: 60%;
 `;
 
 export const StyledVideoModal = styled.video`
@@ -90,6 +119,10 @@ export const StyleImageModal = styled.img`
     height: 100vh;
     right: 0%;
   }
+
+  @media screen and (min-width: 916px) and (max-width: 1199px) {
+    width: 100%;
+    height: 100%;
 `;
 
 export const StyledCloseModal = styled.div`

@@ -8,20 +8,26 @@ export const StyledFirstText = styled.img.attrs({})``;
 
 export const StyledDescription = styled.img`
   ${({ styles }) => styles}
-
-  @media screen and (min-width: 325px) and (max-width: 1199px) {
+  @media screen and (min-width: 325px) and (max-width: 915px) {
     width: 40%;
   }
+
+  @media screen and (min-width: 916px) and (max-width: 1199px) {
+    width: 50%;
+    height: auto;
 `;
 
-export const StyledImageMenu1 = styled.img`
-  margin-right: 20px;
-
-  @media screen and (min-width: 325px) and (max-width: 1199px) {
+export const StyledDescription1 = styled.img`
+  ${({ styles }) => styles}
+  @media screen and (min-width: 325px) and (max-width: 915px) {
     width: 40%;
-    height: 60%;
   }
+
+  @media screen and (min-width: 916px) and (max-width: 1199px) {
+    width: 65%;
+    height: auto;
 `;
+
 
 export const StyledImageMenu33 = styled.img`
   margin-right: 20px;
@@ -30,24 +36,48 @@ export const StyledImageMenu33 = styled.img`
     width: 70%;
     height: 60%;
   }
+
+  
 `;
+
+export const StyledImageMenu1 = styled.img`
+  margin-right: 20px;
+
+  @media screen and (min-width: 325px) and (max-width: 915px) {
+    width: 40%;
+    height: 60%;
+  }
+
+  @media screen and (min-width: 916px) and (max-width: 1199px) {
+    width: 30%;
+    height: 80%;
+`;
+
 
 export const StyledImageMenu2 = styled.img`
   margin-right: 20px;
 
-  @media screen and (min-width: 325px) and (max-width: 1199px) {
+  @media screen and (min-width: 325px) and (max-width: 915px) {
     width: 40%;
     height: 60%;
   }
+
+  @media screen and (min-width: 916px) and (max-width: 1199px) {
+    width: 30%;
+    height: 80%;
 `;
 
 export const StyledImageMenu3 = styled.img`
   margin-right: 20px;
 
-  @media screen and (min-width: 325px) and (max-width: 1199px) {
+  @media screen and (min-width: 325px) and (max-width: 915px) {
     width: 40%;
     height: 60%;
   }
+
+  @media screen and (min-width: 916px) and (max-width: 1199px) {
+    width: 40%;
+    height: 80%;
 `;
 
 export const StyleImageModal = styled.img`
@@ -197,12 +227,18 @@ export const Styledpop11 = styled.div`
   width: 19%;
   height: 15%;
 
-  @media screen and (min-width: 325px) and (max-width: 1199px) {
+  @media screen and (min-width: 325px) and (max-width: 915px) {
     top: 29%;
     left: 34.8%;
     width: 8%;
     height: 15%;
   }
+
+  @media screen and (min-width: 916px) and (max-width: 1199px) {
+    width: 20%;
+    height: 20%;
+    top: 32%;
+    left: 20%;
 `;
 
 export const Styledpop12 = styled.div`
@@ -212,10 +248,16 @@ export const Styledpop12 = styled.div`
   width: 20%;
   height: 17%;
 
-  @media screen and (min-width: 325px) and (max-width: 1199px) {
+  @media screen and (min-width: 325px) and (max-width: 1915px) {
     top: 30%;
     left: 57.3%;
     width: 7.9%;
     height: 12.8%;
   }
+
+  @media screen and (min-width: 916px) and (max-width: 1199px) {
+    width: 20%;
+    height: 20%;
+    top: 32%;
+    left: 60%;
 `;

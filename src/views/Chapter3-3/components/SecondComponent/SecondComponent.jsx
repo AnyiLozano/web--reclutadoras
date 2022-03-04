@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import {
   StyledCloseModal,
   StyledDescription,
+  StyledDescription1,
   Styledpop11,
   Styledpop12,
   StyleImageModal,
@@ -19,7 +20,7 @@ const SecondComponent = (props) => {
           <div className="container">
             <div className="row">
               <div className="col-md-12 d-flex justify-content-center">
-                <StyledDescription
+                <StyledDescription1
                   src={require("../../../../assets/images/circulo.png")}
                   alt="Description"
                   className="animate__animated animate__fadeInLeft"

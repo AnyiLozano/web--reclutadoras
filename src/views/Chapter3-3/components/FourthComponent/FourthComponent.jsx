@@ -3,7 +3,7 @@ import { StyledFourImage } from "../../chapter-1-2.style";
 
 const FourthComponent = () => {
   return (
-    <div className="container mt-4">
+    <div className="container">
       <div className="col-md-12 d-flex justify-content-center">
         <StyledFourImage
           src={require("../../../../assets/images/cuartaimagen.png")}
