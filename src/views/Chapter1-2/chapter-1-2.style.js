@@ -26,7 +26,7 @@ export const StyledImageLeft = styled.img`
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     left: 3%;
     width: 4%;
-    height: 16%;
+    height: auto;
   }
 `;
 
@@ -35,10 +35,11 @@ export const StyledImageRight = styled.img`
   top: 3%;
   right: 5%;
 
+
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     right: 3%;
     width: 4%;
-    height: 16%;
+    height: auto;
   }
 `;
 
@@ -51,12 +52,12 @@ export const StyledContent = styled.div.attrs({
 `;
 
 export const StyledModal1 = styled.img`
-  position: absolute;
-  top: 0%;
-  left: 10.7%;
-  width: 1205px;
-  z-index: 1;
-  height: 101vh;
+position: absolute;
+top: 0%;
+left: 0;
+width: 1205px;
+z-index: 1;
+height: 101vh;
 
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     width: 100%;
@@ -65,21 +66,19 @@ export const StyledModal1 = styled.img`
 `;
 
 export const StyledCloseModal1 = styled.div`
-  position: absolute;
-  top: 27.1%;
-  right: 22%;
-  width: 3.6%;
-  height: 8%;
-  z-index: 2;
+position: absolute;
+top: 27.1%;
+right: 5.3%;
+width: 5.6%;
+height: 8%;
+z-index: 2;
 
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     right: 5.6%;
     width: 5.6%;
   }
 
-  @media screen and (min-width: 1366px) and (max-width: 1919px) {
-    right: 16%;
-  }
+  
 `;
 
 export const StyledVideo1 = styled.video`
@@ -90,6 +89,7 @@ export const StyledVideo1 = styled.video`
 `;
 
 export const StyledFourImage = styled.img`
+height: 80%;
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     width: 40%;
   }

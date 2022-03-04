@@ -43,7 +43,7 @@ export const StyledImage = styled.img`
   height: 100vh;
   ${({ active }) => (active ? "position: fixed; z-index: 1;" : "")}
 
-  @media screen and (min-width: 325px) and (max-width: 915px) {
+  @media screen and (min-width: 325px) and (max-width: 1199px) {
     width: 100%;
   }
 `;

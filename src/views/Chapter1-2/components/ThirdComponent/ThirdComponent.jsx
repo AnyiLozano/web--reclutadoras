@@ -21,7 +21,7 @@ const ThirdComponent = (props) => {
     <StyledContainerSecondComponent>
       <div className="container">
         <div className="row">
-          <div className="col-md-8 d-flex justify-content-end">
+          <div className="col-md-8 col-sm-8 d-flex justify-content-end">
             <StyledDescription
               styles="width: 86%; margin-top: -5%;"
               src={require("../../../../assets/images/description-chapter1-view3.png")}
@@ -45,7 +45,7 @@ const ThirdComponent = (props) => {
               target="_blank"
             ></StyledLink2>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 col-sm-4">
             <div className="col-md-12 mb-2">
               <StyledImageMenu1
                 src={require("../../../../assets/images/menu1-unselected.png")}

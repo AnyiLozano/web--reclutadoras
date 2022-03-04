@@ -8,6 +8,7 @@ export const StyledFirstText = styled.img.attrs({})``;
 
 export const StyledDescription = styled.img`
   ${({ styles }) => styles}
+  height: 70%;
 
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     width: 72%;
@@ -17,18 +18,21 @@ export const StyledDescription = styled.img`
 `;
 
 export const StyledImageMenu1 = styled.img`
+width: 40%;
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     width: 40%;
   }
 `;
 
 export const StyledImageMenu2 = styled.img`
+width: 40%;
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     width: 40%;
   }
 `;
 
 export const StyledImageMenu3 = styled.img`
+width: 40%;
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     width: 40%;
   }
