@@ -211,7 +211,7 @@ export const StyledContainerSecondComponent = styled.div.attrs({
     margin-top: 1rem;
   }
 
-  @media screen and (min-width: 1366px) and (max-width: 1919px) {
+  @media screen and (min-width: 1280px) and (max-width: 1919px) {
     margin-top: 0rem;
   }
 `;
