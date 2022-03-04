@@ -9,6 +9,7 @@ export const StyledFirstText = styled.img.attrs({})``;
 export const StyledDescription = styled.img`
   ${({ styles }) => styles}
   height: 70%;
+  width: 70%;
 
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     width: 72%;
