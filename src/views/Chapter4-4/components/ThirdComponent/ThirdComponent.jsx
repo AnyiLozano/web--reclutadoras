@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { StyledImageMenu33 } from "../../../Chapter3-3/components/FirstComponent/firstComponent.style";
 import {
   StyledCloseModal,
-  StyledImageMenu1,
   StyledImageMenu45,
   Styledpop33,
   StyleImageModal00,
