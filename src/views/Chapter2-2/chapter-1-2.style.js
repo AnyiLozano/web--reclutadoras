@@ -7,7 +7,7 @@ export const StyledContainer = styled.div`
   width: 1024px;
   height: 56%;
 
-  @media screen and (min-width: 325px) and (max-width: 1199px) {
+  @media screen and (min-width: 325px) and (max-width: 915px) {
     left: 0%;
     width: 100%;
   }
@@ -28,10 +28,16 @@ export const StyledImageLeft = styled.img`
   top: 3%;
   left: 5%;
 
-  @media screen and (min-width: 325px) and (max-width: 1199px) {
+  @media screen and (min-width: 325px) and (max-width: 915px) {
     left: 3%;
     width: 4%;
     height: 16%;
+  }
+
+  @media screen and (min-width: 916px) and (max-width: 1199px) {
+    left: 3%;
+    width: 4%;
+    height: auto;
   }
 `;
 
@@ -44,6 +50,12 @@ export const StyledImageRight = styled.img`
     right: 3%;
     width: 4%;
     height: 16%;
+  }
+
+  @media screen and (min-width: 916px) and (max-width: 1199px) {
+    right: 3%;
+    width: 4%;
+    height: auto;
   }
 `;
 

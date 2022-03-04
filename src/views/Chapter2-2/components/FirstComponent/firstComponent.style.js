@@ -7,8 +7,12 @@ export const StyledContainerText = styled.div.attrs({
 export const StyledFirstText = styled.img.attrs({})``;
 
 export const StyledDescription = styled.img`
-  @media screen and (min-width: 325px) and (max-width: 1199px) {
+  @media screen and (min-width: 325px) and (max-width: 915px) {
     width: 40%;
+  }
+
+  @media screen and (min-width: 916px) and (max-width: 1199px) {
+    width: 80%;
   }
 `;
 
@@ -16,6 +20,10 @@ export const StyledDescription1 = styled.img`
   width: 40%;
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     width: 40%;
+  }
+
+  @media screen and (min-width: 916px) and (max-width: 1199px) {
+    width: 60%;
   }
 
   @media screen and (min-width: 1920px) {
@@ -38,6 +46,7 @@ export const StyleImageModal = styled.img`
 
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     width: 100%;
+    height: 100%;
   }
 
   @media screen and (min-width: 1920px) {
@@ -54,8 +63,14 @@ export const StyledVideoModal = styled.video`
   height: 78.5vh;
   background: black;
 
-  @media screen and (min-width: 325px) and (max-width: 1199px) {
+  @media screen and (min-width: 325px) and (max-width: 915px) {
     width: 100%;
+    height: 100%;
+  }
+
+  @media screen and (min-width: 916px) and (max-width: 1199px) {
+    width: 100%;
+    height: 78%;
   }
 
   @media screen and (min-width: 1920px) {
@@ -78,7 +93,7 @@ export const StyledCloseModal = styled.div`
     top: 27%;
   }
 
-  @media screen and (min-width: 1920px){
+  @media screen and (min-width: 1920px) {
     right: 22.1%;
   }
 `;
@@ -166,11 +181,19 @@ export const Styledpop = styled.div`
   width: 11%;
   height: 15%;
 
-  @media screen and (min-width: 325px) and (max-width: 1199px) {
+  @media screen and (min-width: 325px) and (max-width: 915px) {
     top: 79%;
     left: 36.4%;
     width: 4.7%;
     height: 11.4%;
+    background: red;
+  }
+
+  @media screen and (min-width: 916px) and (max-width: 1199px) {
+    top: 77%;
+    left: 25.4%;
+    width: 8.5%;
+    height: 13.4%;
   }
 
   @media screen and (min-width: 1900px) {
@@ -188,9 +211,16 @@ export const Styledpop1 = styled.div`
   width: 13.3%;
   height: 15%;
 
-  @media screen and (min-width: 325px) and (max-width: 1199px) {
+  @media screen and (min-width: 325px) and (max-width: 915px) {
     left: 43.2%;
     width: 6.3%;
+  }
+
+  @media screen and (min-width: 916px) and (max-width: 1199px) {
+    top: 77%;
+    left: 37.5%;
+    width: 11.5%;
+    height: 13.4%;
   }
 `;
 
@@ -205,6 +235,13 @@ export const Styledpop2 = styled.div`
     left: 51.4%;
     width: 4.8%;
   }
+
+  @media screen and (min-width: 916px) and (max-width: 1199px) {
+    top: 77%;
+    left: 52.5%;
+    width: 9%;
+    height: 13.4%;
+  }
 `;
 
 export const Styledpop3 = styled.div`
@@ -217,6 +254,13 @@ export const Styledpop3 = styled.div`
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     left: 58.8%;
     width: 4.8%;
+  }
+
+  @media screen and (min-width: 916px) and (max-width: 1199px) {
+    top: 77%;
+    left: 65.5%;
+    width: 9%;
+    height: 13.4%;
   }
 `;
 
