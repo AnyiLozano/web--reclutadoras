@@ -21,7 +21,9 @@ export const StyledImageText = styled.img`
   width: 50%;
 
   @media screen and (min-width: 325px) and (max-width: 1199px) {
-    width: 43%;
+    width: 50%;
+    top: 46%;
+    left: 25%;
   }
 `;
 
@@ -32,6 +34,7 @@ export const StyledImageButton = styled.img`
   width: 10%;
 
   @media screen and (min-width: 325px) and (max-width: 1199px) {
-    width: 7%;
+    width: 17%;
+    left: 43%;
   }
 `;
