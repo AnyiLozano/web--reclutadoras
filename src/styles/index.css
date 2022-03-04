@@ -1,0 +1,14 @@
+body {
+  width: 1200px;
+  margin: auto !important;
+  background-color: black !important;
+  height: 100% !important;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1199px) {
+  body {
+    width: 100%;
+    height: 100vh !important;
+    margin: 0 !important;
+  }
+}
