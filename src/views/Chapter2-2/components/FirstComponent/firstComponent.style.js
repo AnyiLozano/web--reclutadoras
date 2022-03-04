@@ -12,6 +12,17 @@ export const StyledDescription = styled.img`
   }
 `;
 
+export const StyledDescription1 = styled.img`
+  width: 40%;
+  @media screen and (min-width: 325px) and (max-width: 1199px) {
+    width: 40%;
+  }
+
+  @media screen and (min-width: 1920px) {
+    width: 50%;
+  }
+`;
+
 export const StyledImageMenu1 = styled.img``;
 
 export const StyledImageMenu2 = styled.img``;
@@ -22,11 +33,16 @@ export const StyleImageModal = styled.img`
   position: fixed;
   z-index: 1;
   top: 0%;
-  width: 1205px;
+  width: 1024px;
   height: 100vh;
 
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     width: 100%;
+  }
+
+  @media screen and (min-width: 1920px) {
+    width: 1200px;
+    height: 100%;
   }
 `;
 
@@ -34,12 +50,17 @@ export const StyledVideoModal = styled.video`
   position: fixed;
   z-index: 1;
   top: 21.9%;
-  width: 1205px;
+  width: 1024px;
   height: 78.5vh;
   background: black;
 
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     width: 100%;
+  }
+
+  @media screen and (min-width: 1920px) {
+    width: 1200px;
+    height: 75%%;
   }
 `;
 
@@ -47,14 +68,18 @@ export const StyledCloseModal = styled.div`
   width: 3.6%;
   height: 7%;
   position: fixed;
-  top: 25.4%;
-  right: 22%;
+  top: 27.2%;
+  right: 17.1%;
   z-index: 1;
 
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     width: 5%;
     right: 6%;
     top: 27%;
+  }
+
+  @media screen and (min-width: 1920px){
+    right: 22.1%;
   }
 `;
 
@@ -147,6 +172,13 @@ export const Styledpop = styled.div`
     width: 4.7%;
     height: 11.4%;
   }
+
+  @media screen and (min-width: 1900px) {
+    top: 79%;
+    left: 28.3%;
+    width: 7.5%;
+    height: 11.7%;
+  }
 `;
 
 export const Styledpop1 = styled.div`
@@ -191,9 +223,13 @@ export const Styledpop3 = styled.div`
 export const StyledContainerCircles = styled.div.attrs({
   className: "col-md-12 d-flex justify-content-center",
 })`
-  margin-top: 3rem;
+  margin-top: 1rem;
 
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     margin-top: 1rem;
+  }
+
+  @media screen and (min-width: 1920px) {
+    margin-top: 3rem;
   }
 `;

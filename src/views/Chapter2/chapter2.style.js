@@ -8,6 +8,10 @@ export const StyledImage = styled.img`
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     width: 100%;
   }
+
+  @media screen and (min-width: 1920px) {
+    width: 1200px;
+  }
 `;
 
 export const StyledImageText = styled.img`

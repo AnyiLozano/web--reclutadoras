@@ -3,6 +3,7 @@ import {
   StyledCloseModal,
   StyledContainerCircles,
   StyledDescription,
+  StyledDescription1,
   Styledpop,
   Styledpop1,
   Styledpop2,
@@ -32,7 +33,7 @@ const ContentFirstComponent = (props) => {
                 />
               </div>
               <StyledContainerCircles>
-                <StyledDescription
+                <StyledDescription1
                   src={require("../../../../assets/images/chapter-cuadro-2.png")}
                   alt="Description"
                   className="animate__animated animate__fadeInUp"
