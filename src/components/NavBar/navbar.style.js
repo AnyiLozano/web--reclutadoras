@@ -27,7 +27,7 @@ export const StyledFirstMenu = styled.div.attrs({
 })`
   width: 23.5%;
   height: 100%;
-  margin-left: 5.4%;
+  margin-left: 0%;
 `;
 
 export const StyledSecondMenu = styled.div.attrs({

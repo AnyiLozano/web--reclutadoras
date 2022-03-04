@@ -19,7 +19,12 @@ export const StyledContent = styled.div.attrs({
   width: 1200px;
   height: 55%;
 
-  @media screen and (min-width: 325px) and (max-width: 915px) {
+  @media screen and (min-width: 325px) and (max-width: 1190px) {
+    width: 100%;
+    left: 0%;
+  }
+
+  @media screen and (min-width: 1366px) and (max-width: 1900px) {
     width: 100%;
     left: 0%;
   }
