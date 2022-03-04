@@ -24,6 +24,7 @@ export const StyledDescription = styled.img`
   }
 `;
 
+
 export const StyledImageMenu1 = styled.img`
 width: 40%;
   @media screen and (min-width: 325px) and (max-width: 1199px) {
@@ -48,8 +49,8 @@ width: 40%;
 export const StyleImageModal = styled.img`
   position: absolute;
   z-index: 1;
-  top: -882%;
-  width: 100.4%;
+  top: -592%;
+  width: 1024px;
   height: 77.5vh;
 
   @media screen and (min-width: 325px) and (max-width: 1199px) {
@@ -62,8 +63,8 @@ export const StyleImageModal = styled.img`
 export const StyledVideoModal = styled.video`
   position: absolute;
   z-index: 1;
-  top: -882%;
-  width: 100.4%;
+  top: -600%;
+  width: 1024px;
   height: 77.5vh;
   background: black;
 
@@ -78,17 +79,17 @@ export const StyledCloseModal = styled.div`
   width: 5%;
   height: 300%;
   position: absolute;
-  top: -771%;
+  top: -582%;
   right: 6%;
   z-index: 1;
 `;
 
 export const StyledOpenModal1 = styled.div`
-  position: absolute;
-  top: 0%;
-  left: 14%;
-  width: 11%;
-  height: 40%;
+position: absolute;
+top: 12%;
+left: 23%;
+width: 9%;
+height: 16%;
 
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     top: 15%;
@@ -99,11 +100,11 @@ export const StyledOpenModal1 = styled.div`
 `;
 
 export const StyledOpenModal2 = styled.div`
-  position: absolute;
-  top: 0%;
-  left: 27%;
-  width: 11%;
-  height: 40%;
+position: absolute;
+top: 12%;
+left: 34%;
+width: 9%;
+height: 16%;
 
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     top: 16%;
@@ -114,11 +115,12 @@ export const StyledOpenModal2 = styled.div`
 `;
 
 export const StyledOpenModal3 = styled.div`
-  position: absolute;
-  top: 0%;
-  left: 40.8%;
-  width: 11%;
-  height: 40%;
+position: absolute;
+top: 12%;
+left: 45%;
+width: 9%;
+height: 16%;
+
 
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     top: 17%;
@@ -129,11 +131,11 @@ export const StyledOpenModal3 = styled.div`
 `;
 
 export const StyledOpenModal4 = styled.div`
-  position: absolute;
-  top: 0%;
-  left: 53.8%;
-  width: 11%;
-  height: 40%;
+position: absolute;
+top: 12%;
+left: 56%;
+width: 9%;
+height: 16%;
 
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     top: 17%;

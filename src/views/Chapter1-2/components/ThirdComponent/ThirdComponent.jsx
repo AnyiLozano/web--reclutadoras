@@ -23,7 +23,7 @@ const ThirdComponent = (props) => {
         <div className="row">
           <div className="col-md-8 col-sm-8 d-flex justify-content-end">
             <StyledDescription
-              styles="width: 86%; margin-top: -5%;"
+              styles="width: 86%; margin-top: -2%;"
               src={require("../../../../assets/images/description-chapter1-view3.png")}
               alt="Description"
               className="animate__animated animate__fadeInLeft"

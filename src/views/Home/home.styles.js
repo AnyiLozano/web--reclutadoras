@@ -4,7 +4,7 @@ export const StyledContainer = styled.div.attrs({
   className: "d-flex justify-content-center align-items-center",
 })`
   ${({ background }) => `background: url("${background}");`}
-  width: 1200px;
+  width: 1024px;
   height: 100vh;
   background-size: 100%;
   background-repeat: no-repeat;

@@ -16,7 +16,7 @@ export const StyledContent = styled.div.attrs({
   position: absolute;
   top: 37%;
   left: 0%;
-  width: 1200px;
+  width: 1024px;
   height: 55%;
 
   @media screen and (min-width: 325px) and (max-width: 1190px) {
@@ -39,7 +39,7 @@ export const StyledImageText = styled.img`
 export const StyledImageButton = styled.img``;
 
 export const StyledImage = styled.img`
-  width: 1200px;
+  width: 1024px;
   height: 100%;
   ${({ active }) => (active ? "position: fixed; z-index: 1;" : "")}
 

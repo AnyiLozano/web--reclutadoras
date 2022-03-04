@@ -7,7 +7,7 @@ export const StyledContainer = styled.div.attrs({
   ${({ background }) => `background: url("${background}");`}
   position: absolute;
   bottom: 0%;
-  width: 1200px;
+  width: 1024px;
   height: 8vh;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -57,7 +57,7 @@ export const StyledFourthMenu = styled.div.attrs({
 export const StyledContainerSubmenus = styled.div`
   position: absolute;
   bottom: 7%;
-  width: 1200px;
+  width: 1024px;
 
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     width: 100%;

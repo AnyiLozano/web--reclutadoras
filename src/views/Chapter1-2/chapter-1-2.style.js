@@ -4,7 +4,7 @@ export const StyledContainer = styled.div`
   position: absolute;
   top: 36.9%;
   left: 0%;
-  width: 1200px;
+  width: 1024px;
   height: 56%;
 
   @media screen and (min-width: 325px) and (max-width: 1199px) {
@@ -55,7 +55,7 @@ export const StyledModal1 = styled.img`
 position: absolute;
 top: 0%;
 left: 0;
-width: 1205px;
+width: 1024px;
 z-index: 1;
 height: 101vh;
 
@@ -90,6 +90,7 @@ export const StyledVideo1 = styled.video`
 
 export const StyledFourImage = styled.img`
 height: 80%;
+width: 50%;
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     width: 40%;
   }
@@ -97,11 +98,11 @@ height: 80%;
 
 export const StyledLink1 = styled.a`
   position: absolute;
-  width: 21%;
-  height: 10%;
-  top: 57%;
-  z-index: 2;
-  right: 29%;
+  width: 28%;
+    height: 10%;
+    top: 57%;
+    z-index: 2;
+    right: 21%;
 `;
 
 export const StyledLink2 = styled.a`
@@ -110,7 +111,7 @@ export const StyledLink2 = styled.a`
   height: 15%;
   top: 73%;
   z-index: 2;
-  right: 36%;
+  right: 31%;
 `;
 
 export const StyledLink3 = styled.a`
@@ -128,7 +129,7 @@ export const StyledLink4 = styled.a`
   height: 15%;
   top: 75%;
   z-index: 2;
-  right: 32%;
+  right: 24%;
 `;
 
 export const StyledLink5 = styled.a`
@@ -137,7 +138,7 @@ export const StyledLink5 = styled.a`
   height: 10%;
   top: 63%;
   z-index: 2;
-  right: 29%;
+  right: 24%;
 `;
 
 export const StyledLink6 = styled.a`
@@ -146,7 +147,7 @@ export const StyledLink6 = styled.a`
   height: 15%;
   top: 75%;
   z-index: 2;
-  right: 35%;
+  right: 28%;
 `;
 
 export const StyledLink7 = styled.a`
