@@ -21,8 +21,6 @@ const Chapter4 = (props) => {
   /** History */
   const history = useNavigate();
 
-  const { setViews } = props;
-
   return (
     <React.Fragment>
       {view ? (

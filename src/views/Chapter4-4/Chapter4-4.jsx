@@ -1,20 +1,10 @@
 import React, { useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import {
-  StyledBackgroundImage,
-  StyledCloseModal1,
   StyledContainer,
   StyledContent,
   StyledImageLeft,
   StyledImageRight,
-  StyledLink1,
-  StyledLink2,
-  StyledLink3,
-  StyledLink4,
-  StyledLink5,
-  StyledLink6,
-  StyledLink7,
-  StyledModal1,
   StyledViewContainer,
 } from "./chapter-1-2.style";
 import FirstComponent from "./components/FirstComponent/firstComponent";
@@ -29,8 +19,7 @@ const Chapter44 = () => {
   const [views, setViews] = useState(
     search === "?1" ? 2 : search === "?3" ? 3 : 1
   );
-  const [modal, setModal] = useState(null);
-  const [setShowVideo1] = useState(false);
+  const [setModal] = useState(null);
 
   const navigate = useNavigate();
 

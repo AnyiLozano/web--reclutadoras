@@ -3,7 +3,6 @@ import {
   StyledContainer,
   StyledContent,
   StyledImage,
-  StyledImageButton,
   StyledImageText,
 } from "./chapter1.style";
 import { useNavigate } from "react-router-dom";
