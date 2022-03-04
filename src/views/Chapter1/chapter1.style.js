@@ -15,7 +15,7 @@ export const StyledContent = styled.div.attrs({
 })`
   position: absolute;
   top: 37%;
-  left: 18.7%;
+  left: 0%;
   width: 1200px;
   height: 55%;
 

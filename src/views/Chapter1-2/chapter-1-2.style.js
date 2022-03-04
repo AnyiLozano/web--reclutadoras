@@ -3,18 +3,13 @@ import styled from "styled-components";
 export const StyledContainer = styled.div`
   position: absolute;
   top: 36.9%;
-  left: 18.5%;
+  left: 0%;
   width: 1200px;
   height: 56%;
 
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     left: 0%;
     width: 100%;
-  }
-
-  @media screen and (min-width: 1366px) and (max-width: 1919px) {
-    left: 10.5%;
-    width: 1200px;
   }
 `;
 
