@@ -16,7 +16,7 @@ export const StyledImage = styled.img`
 
 export const StyledImageText = styled.img`
   position: absolute;
-  top: 46%;
+  top: 50%;
   left: 25%;
   width: 50%;
 
