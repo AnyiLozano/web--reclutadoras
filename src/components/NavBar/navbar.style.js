@@ -10,7 +10,7 @@ export const StyledContainer = styled.div.attrs({
   width: 1024px;
   height: 8vh;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100% 100%;
   margin-right: 0;
   margin-left: 0;
   padding-right: 0;
@@ -18,8 +18,14 @@ export const StyledContainer = styled.div.attrs({
 
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     width: 100%;
-    height: 13vh;
+    height: 8vh;
   }
+
+  @media screen and (min-width: 1920px){
+    width: 1200px;
+    height: 6vh;
+  }
+  
 `;
 
 export const StyledFirstMenu = styled.div.attrs({
@@ -61,7 +67,12 @@ export const StyledContainerSubmenus = styled.div`
 
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     width: 100%;
-    bottom: 12.5%;
+    bottom: 8%;
+  }
+
+  @media screen and (min-width: 1920px){
+    width: 1200px;
+    bottom: 5.5%;
   }
 `;
 

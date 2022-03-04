@@ -16,3 +16,10 @@ body {
     margin: 0 !important;
   }
 }
+
+@media screen and (min-width: 1920px)  {
+  body {
+    width: 1200px;
+    height: 100vh !important;
+  }
+}

@@ -86,7 +86,7 @@ export const StyledCloseModal = styled.div`
 
 export const StyledOpenModal1 = styled.div`
 position: absolute;
-top: 12%;
+top: 16%;
 left: 23%;
 width: 9%;
 height: 16%;
@@ -101,7 +101,7 @@ height: 16%;
 
 export const StyledOpenModal2 = styled.div`
 position: absolute;
-top: 12%;
+top: 16%;
 left: 34%;
 width: 9%;
 height: 16%;
@@ -116,7 +116,7 @@ height: 16%;
 
 export const StyledOpenModal3 = styled.div`
 position: absolute;
-top: 12%;
+top: 16%;
 left: 45%;
 width: 9%;
 height: 16%;
@@ -132,7 +132,7 @@ height: 16%;
 
 export const StyledOpenModal4 = styled.div`
 position: absolute;
-top: 12%;
+top: 16%;
 left: 56%;
 width: 9%;
 height: 16%;
@@ -146,11 +146,12 @@ height: 16%;
 `;
 
 export const StyledLink = styled.a`
-  position: absolute;
-  top: 61%;
-  left: 24.8%;
-  width: 11%;
-  height: 40%;
+position: absolute;
+top: 53%;
+left: 29.8%;
+width: 11%;
+height: 40%;
+
 
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     top: 47%;
@@ -161,11 +162,11 @@ export const StyledLink = styled.a`
 `;
 
 export const StyledLink1 = styled.a`
-  position: absolute;
-  top: 61%;
-  left: 38.8%;
-  width: 11%;
-  height: 40%;
+position: absolute;
+top: 53%;
+left: 42.8%;
+width: 9%;
+height: 40%;
 
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     top: 47%;
@@ -176,11 +177,11 @@ export const StyledLink1 = styled.a`
 `;
 
 export const StyledLink2 = styled.a`
-  position: absolute;
-  top: 61%;
-  left: 52.8%;
-  width: 11%;
-  height: 40%;
+position: absolute;
+top: 55%;
+left: 54.8%;
+width: 9%;
+height: 40%;
 
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     top: 47%;
