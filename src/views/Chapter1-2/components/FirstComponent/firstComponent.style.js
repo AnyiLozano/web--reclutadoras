@@ -11,9 +11,15 @@ export const StyledDescription = styled.img`
   height: 100%;
   width: 70%;
 
-  @media screen and (min-width: 325px) and (max-width: 1199px) {
+  @media screen and (min-width: 325px) and (max-width: 915px) {
     width: 72%;
-    height: 53%;
+    height: 70%;
+    margin-top: 4%;
+  }
+
+  @media screen and (min-width: 916px) and (max-width: 1199px) {
+    width: 72%;
+    height: 100%;
     margin-top: 4%;
   }
 `;
