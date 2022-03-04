@@ -22,6 +22,10 @@ export const StyledDescription = styled.img`
     height: 100%;
     margin-top: 0%;
   }
+
+  @media screen and (min-width: 1920px) {
+    margin-top: 5%;
+  }
 `;
 
 
@@ -30,6 +34,10 @@ width: 40%;
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     width: 40%;
   }
+
+  @media screen and (min-width: 1920px) {
+    margin-top: 5%;
+  }
 `;
 
 export const StyledImageMenu2 = styled.img`
@@ -37,12 +45,20 @@ width: 40%;
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     width: 40%;
   }
+
+  @media screen and (min-width: 1920px) {
+    margin-top: 2%;
+  }
 `;
 
 export const StyledImageMenu3 = styled.img`
 width: 40%;
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     width: 40%;
+  }
+
+  @media screen and (min-width: 1920px) {
+    margin-top: 2%;
   }
 `;
 
@@ -97,6 +113,13 @@ height: 16%;
     width: 6.6%;
     height: 20.2%;
   }
+
+  @media screen and (min-width: 1920px) {
+    top: 21%;
+    left: 23.6%;
+    width: 8.6%;
+    height: 36.2%;
+  }
 `;
 
 export const StyledOpenModal2 = styled.div`
@@ -111,6 +134,13 @@ height: 16%;
     left: 37.5%;
     width: 6.2%;
     height: 20%;
+  }
+
+  @media screen and (min-width: 1920px) {
+    top: 21%;
+    left: 34.6%;
+    width: 8.6%;
+    height: 36.2%;
   }
 `;
 
@@ -128,6 +158,13 @@ height: 16%;
     width: 6.3%;
     height: 19%;
   }
+
+  @media screen and (min-width: 1920px) {
+    top: 21%;
+    left: 45.6%;
+    width: 8.6%;
+    height: 36.2%;
+  }
 `;
 
 export const StyledOpenModal4 = styled.div`
@@ -142,6 +179,13 @@ height: 16%;
     left: 54.8%;
     width: 7%;
     height: 19%;
+  }
+
+  @media screen and (min-width: 1920px) {
+    top: 21%;
+    left: 55.6%;
+    width: 10%;
+    height: 36.2%;
   }
 `;
 
@@ -159,6 +203,13 @@ height: 40%;
     width: 7%;
     height: 20%;
   }
+
+  @media screen and (min-width: 1920px){
+    top: 77%;
+    left: 30.8%;
+    width: 9%;
+    height: 33%;
+  }
 `;
 
 export const StyledLink1 = styled.a`
@@ -174,6 +225,13 @@ height: 40%;
     width: 6%;
     height: 19%;
   }
+
+  @media screen and (min-width: 1920px){
+    top: 77%;
+    left: 42.8%;
+    width: 9%;
+    height: 33%;
+  }
 `;
 
 export const StyledLink2 = styled.a`
@@ -188,6 +246,13 @@ height: 40%;
     left: 53.6%;
     width: 6%;
     height: 18%;
+  }
+
+  @media screen and (min-width: 1920px){
+    top: 77%;
+    left: 55.8%;
+    width: 9%;
+    height: 33%;
   }
 `;
 

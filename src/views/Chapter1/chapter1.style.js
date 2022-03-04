@@ -28,6 +28,11 @@ export const StyledContent = styled.div.attrs({
     width: 100%;
     left: 0%;
   }
+
+  @media screen and (min-width: 1920px) {
+    width: 1200px;
+    left: 0%;
+  }
 `;
 
 export const StyledImageText = styled.img`
@@ -45,5 +50,9 @@ export const StyledImage = styled.img`
 
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     width: 100%;
+  }
+
+  @media screen and (min-width: 1920px){
+    width: 1200px;
   }
 `;

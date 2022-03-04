@@ -11,6 +11,11 @@ export const StyledContainer = styled.div`
     left: 0%;
     width: 100%;
   }
+
+  @media screen and (min-width: 1920px) {
+    left: 0%;
+    width: 1200px;
+  }
 `;
 
 export const StyledBackgroundImage = styled.img`
@@ -63,6 +68,11 @@ height: 101vh;
     width: 100%;
     left: 0%;
   }
+
+  @media screen and (min-width: 1920px) {
+    width: 1200px;
+    left: 0%;
+  }
 `;
 
 export const StyledCloseModal1 = styled.div`
@@ -92,6 +102,10 @@ export const StyledFourImage = styled.img`
 height: 80%;
 width: 50%;
   @media screen and (min-width: 325px) and (max-width: 1199px) {
+    width: 40%;
+  }
+
+  @media screen and (min-width: 1920px) {
     width: 40%;
   }
 `;
