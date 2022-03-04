@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import {
   StyledCloseModal,
-  StyledDescription,
   StyledDescription1,
   Styledpop11,
   Styledpop12,
