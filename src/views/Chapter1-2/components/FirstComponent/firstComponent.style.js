@@ -185,6 +185,8 @@ export const StyledContainer = styled.div.attrs({
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     margin-left: 2rem;
   }
+
+  
 `;
 
 export const StyledContainerSecondComponent = styled.div.attrs({
@@ -193,6 +195,10 @@ export const StyledContainerSecondComponent = styled.div.attrs({
   margin-top: 3rem;
 
   @media screen and (min-width: 325px) and (max-width: 1199px) {
+    margin-top: 1rem;
+  }
+
+  @media screen and (min-width: 1366px) and (max-width: 1919px) {
     margin-top: 1rem;
   }
 `;

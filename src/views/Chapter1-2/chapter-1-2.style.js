@@ -11,6 +11,11 @@ export const StyledContainer = styled.div`
     left: 0%;
     width: 100%;
   }
+
+  @media screen and (min-width: 1366px) and (max-width: 1919px) {
+    left: 10.5%;
+    width: 1200px;
+  }
 `;
 
 export const StyledBackgroundImage = styled.img`
@@ -53,7 +58,7 @@ export const StyledContent = styled.div.attrs({
 export const StyledModal1 = styled.img`
   position: absolute;
   top: 0%;
-  left: 18.5%;
+  left: 10.7%;
   width: 1205px;
   z-index: 1;
   height: 101vh;
@@ -75,6 +80,10 @@ export const StyledCloseModal1 = styled.div`
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     right: 5.6%;
     width: 5.6%;
+  }
+
+  @media screen and (min-width: 1366px) and (max-width: 1919px) {
+    right: 16%;
   }
 `;
 
