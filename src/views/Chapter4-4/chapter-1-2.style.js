@@ -12,6 +12,10 @@ export const StyledViewContainer = styled.div.attrs({
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     width: 100%;
   }
+
+  @media screen and (min-width: 1280px) and (max-width: 1919px) {
+    width: 1024px;
+  }
 `;
 
 export const StyledContainer = styled.div`
@@ -22,6 +26,16 @@ export const StyledContainer = styled.div`
   height: 56%;
 
   @media screen and (min-width: 325px) and (max-width: 1199px) {
+    width: 100%;
+    left: 0%;
+  }
+
+  @media screen and (min-width: 1280px) and (max-width: 1919px) {
+    width: 100%;
+    left: 0%;
+  }
+
+  @media screen and (min-width: 1920px) {
     width: 100%;
     left: 0%;
   }
@@ -100,6 +114,11 @@ export const StyledFourImage = styled.img`
 
   @media screen and (min-width: 916px) and (max-width: 1199px) {
     width: 75%;
+    height: 100%;
+  }
+
+  @media screen and (min-width: 1280px) and (max-width: 1919px) {
+    width: 60%;
     height: 100%;
   }
 `;

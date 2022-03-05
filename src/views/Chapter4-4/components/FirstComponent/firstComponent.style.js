@@ -17,6 +17,11 @@ export const StyledDescription = styled.img`
     width: 50%;
     height: 100%;
   }
+
+  @media screen and (min-width: 1280px) and (max-width: 1919px) {
+    width: 40%;
+    height: 100%;
+  }
 `;
 
 export const StyledDescription2= styled.img`
@@ -30,6 +35,11 @@ export const StyledDescription2= styled.img`
     width: 60%;
     height: 100%;
   }
+
+  @media screen and (min-width: 1280px) and (max-width: 1919px) {
+    width: 40%;
+    height: 100%;
+  }
 `;
 
 export const StyledDescription1 = styled.img`
@@ -38,6 +48,11 @@ export const StyledDescription1 = styled.img`
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     margin-top: -2rem;
     width: 40%;
+  }
+
+  @media screen and (min-width: 1280px) and (max-width: 1919px) {
+    width: 40%;
+    height: 100%;
   }
 `;
 
@@ -50,6 +65,11 @@ export const StyledDescription6 = styled.img`
 
   @media screen and (min-width: 916px) and (max-width: 1199px) {
     width: 57%;
+    height: 100%;
+  }
+
+  @media screen and (min-width: 1280px) and (max-width: 1919px) {
+    width: 40%;
     height: 100%;
   }
 `;
@@ -72,6 +92,11 @@ export const StyledImageMenu1 = styled.img`
     width: 24%;
     height: 80%;
   }
+
+  @media screen and (min-width: 1280px) and (max-width: 1919px) {
+    width: 24%;
+    height: 80%;
+  }
 `;
 
 export const StyledImageMenu2 = styled.img`
@@ -81,12 +106,22 @@ export const StyledImageMenu2 = styled.img`
     width: 24%;
     height: 80%;
   }
+
+  @media screen and (min-width: 1280px) and (max-width: 1919px) {
+    width: 24%;
+    height: 80%;
+  }
 `;
 
 export const StyledImageMenu3 = styled.img`
   margin-right: 20px;
 
   @media screen and (min-width: 325px) and (max-width: 1199px) {
+    width: 24%;
+    height: 80%;
+  }
+
+  @media screen and (min-width: 1280px) and (max-width: 1919px) {
     width: 24%;
     height: 80%;
   }
@@ -108,6 +143,12 @@ export const StyledImageMenu45 = styled.img`
     top: 60%;
     width: 40%;
   }
+
+  @media screen and (min-width: 1280px) and (max-width: 1919px) {
+    left: 50%;
+    top: 60%;
+    width: 40%;
+  }
 `;
 
 export const StyleImageModal = styled.img`
@@ -125,6 +166,11 @@ export const StyleImageModal = styled.img`
     width: 100%;
     height: 100%;
   }
+
+  @media screen and (min-width: 1280px) and (max-width: 1919px) {
+    width: 1024px;
+    height: 100%;
+  }
 `;
 
 export const StyleImageModal21 = styled.img`
@@ -137,6 +183,11 @@ export const StyleImageModal21 = styled.img`
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     width: 100%;
   }
+
+  @media screen and (min-width: 1280px) and (max-width: 1919px) {
+    width: 1024px;
+    height: 100%;
+  }
 `;
 
 export const StyleImageModal00 = styled.img`
@@ -148,6 +199,11 @@ export const StyleImageModal00 = styled.img`
 
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     width: 100%;
+  }
+
+  @media screen and (min-width: 1280px) and (max-width: 1919px) {
+    width: 1024px;
+    height: 100%;
   }
 `;
 
@@ -171,6 +227,11 @@ export const StyledCloseModal = styled.div`
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     right: 6%;
   }
+
+  @media (min-width: 1280px) and (max-width: 1919px){
+    right: 16.4%;
+  }
+
 `;
 
 export const StyledCloseModalOnModal = styled.div`
@@ -203,6 +264,10 @@ export const StyledCloseModal1 = styled.div`
   top: 37%;
   right: 21%;
   z-index: 2;
+
+  @media (min-width: 1280px) and (max-width: 1919px){
+    right: 16%;
+  }
 `;
 
 export const StyledCloseModal2 = styled.div`
@@ -333,6 +398,13 @@ export const Styledpop8 = styled.div`
     width: 20%;
     height: 31%;
   }
+
+  @media (min-width: 1920px){
+    top: 44%;
+    left: 13.2%;
+    width: 22.7%;
+    height: 18.8%;
+  }
 `;
 
 export const Styledpop9 = styled.div`
@@ -355,6 +427,13 @@ export const Styledpop9 = styled.div`
     width: 20%;
     height: 31%;
   }
+
+  @media (min-width: 1920px){
+    top: 44%;
+    left: 38.2%;
+    width: 22.7%;
+    height: 18.8%;
+  }
 `;
 
 export const Styledpop10 = styled.div`
@@ -376,6 +455,13 @@ export const Styledpop10 = styled.div`
     left: 63%;
     width: 20%;
     height: 31%;
+  }
+
+  @media (min-width: 1920px){
+    top: 44%;
+    left: 62.2%;
+    width: 22.7%;
+    height: 18.8%;
   }
 `;
 
@@ -431,6 +517,11 @@ export const StyledModalContent1 = styled.div.attrs({
     width: 100%;
     left: 0%;
   }
+
+  @media screen and (min-width: 1280px) and (max-width: 1919px) {
+    width: 1024px;
+    left: 12.5%;
+  }
 `;
 
 export const StyledModalImage1 = styled.img.attrs({
@@ -441,6 +532,10 @@ export const StyledModalImage1 = styled.img.attrs({
 
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     width: 100%;
+  }
+
+  @media screen and (min-width: 1280px) and (max-width: 1919px) {
+    width: 1024px;
   }
 `;
 
@@ -467,6 +562,11 @@ export const StyledModalContent2 = styled.div.attrs({
     width: 100%;
     left: 0%;
   }
+
+  @media screen and (min-width: 1280px) and (max-width: 1919px) {
+    width: 1024px;
+    left: 12.5%;
+  }
 `;
 
 export const StyledModalImage2 = styled.img.attrs({
@@ -477,6 +577,10 @@ export const StyledModalImage2 = styled.img.attrs({
 
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     width: 100%;
+  }
+
+  @media screen and (min-width: 1280px) and (max-width: 1919px) {
+    width: 1024px;
   }
 `;
 
@@ -503,6 +607,11 @@ export const StyledModalContent0 = styled.div.attrs({
     width: 100%;
     left: 0%;
   }
+
+  @media screen and (min-width: 1280px) and (max-width: 1919px) {
+    width: 1024px;
+    left: 12.5%;
+  }
 `;
 
 export const StyledModalImage0 = styled.img.attrs({
@@ -513,6 +622,10 @@ export const StyledModalImage0 = styled.img.attrs({
 
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     width: 100%;
+  }
+
+  @media screen and (min-width: 1280px) and (max-width: 1919px) {
+    width: 1024px;
   }
 `;
 

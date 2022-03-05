@@ -31,7 +31,8 @@ export const StyledDescription1 = styled.img`
   }
 `;
 
-export const StyledImageMenu1 = styled.img``;
+export const StyledImageMenu1 = styled.img`
+`;
 
 export const StyledImageMenu2 = styled.img``;
 
@@ -107,13 +108,14 @@ export const StyledOpenModal1 = styled.div`
 
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     width: 100%;
+
   }
 `;
 
 export const StyledOpenModal2 = styled.div`
   position: absolute;
   top: 0%;
-  left: 27%;22
+  left: 27%;
   width: 11%;
   height: 40%;
 
@@ -186,7 +188,6 @@ export const Styledpop = styled.div`
     left: 36.4%;
     width: 4.7%;
     height: 11.4%;
-    background: red;
   }
 
   @media screen and (min-width: 916px) and (max-width: 1199px) {

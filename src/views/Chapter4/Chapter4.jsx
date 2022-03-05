@@ -63,7 +63,7 @@ const Chapter4 = (props) => {
                     <StyledImageMenu1
                       src={require("../../assets/images/POL1.png")}
                       alt="Description"
-                      className="animate__animated animate__fadeInRight"
+                      className="animate__animated animate__fadeInRight menu-1"
                     />
                     <StyledImageMenu2
                       src={require("../../assets/images/pol2.png")}
