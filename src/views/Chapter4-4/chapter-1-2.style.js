@@ -44,7 +44,7 @@ export const StyledImageLeft = styled.img`
 
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     width: 6%;
-    height: 20%;
+    height: auto;
     left: 3%;
   }
 `;
@@ -56,7 +56,7 @@ export const StyledImageRight = styled.img`
 
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     ${({ isBold }) => (isBold ? "width: 26%;" : "width: 6%;")}
-    height: 20%;
+    height: auto;
     right: 3%;
   }
 `;
