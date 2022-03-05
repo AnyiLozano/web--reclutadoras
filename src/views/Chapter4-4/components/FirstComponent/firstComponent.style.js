@@ -9,8 +9,26 @@ export const StyledFirstText = styled.img.attrs({})``;
 export const StyledDescription = styled.img`
   ${({ styles }) => styles}
 
-  @media screen and (min-width: 325px) and (max-width: 1199px) {
+  @media screen and (min-width: 325px) and (max-width: 915px) {
     width: 40%;
+  }
+
+  @media screen and (min-width: 916px) and (max-width: 1199px) {
+    width: 50%;
+    height: 100%;
+  }
+`;
+
+export const StyledDescription2= styled.img`
+  ${({ styles }) => styles}
+
+  @media screen and (min-width: 325px) and (max-width: 915px) {
+    width: 40%;
+  }
+
+  @media screen and (min-width: 916px) and (max-width: 1199px) {
+    width: 65%;
+    height: 100%;
   }
 `;
 
@@ -22,6 +40,20 @@ export const StyledDescription1 = styled.img`
     width: 40%;
   }
 `;
+
+export const StyledDescription6 = styled.img`
+  ${({ styles }) => styles}
+
+  @media screen and (min-width: 325px) and (max-width: 915px) {
+    width: 40%;
+  }
+
+  @media screen and (min-width: 916px) and (max-width: 1199px) {
+    width: 57%;
+    height: 100%;
+  }
+`;
+
 
 export const StyledContainerColumn = styled.div.attrs({
   className: "col-md-12 d-flex justify-content-center",
@@ -65,9 +97,15 @@ export const StyledImageMenu45 = styled.img`
   left: 49%;
   top: 74%;
 
-  @media screen and (min-width: 325px) and (max-width: 1199px) {
+  @media screen and (min-width: 325px) and (max-width: 915px) {
     left: 58%;
     top: 51%;
+    width: 40%;
+  }
+
+  @media screen and (min-width: 916px) and (max-width: 1199px) {
+    left: 50%;
+    top: 60%;
     width: 40%;
   }
 `;
@@ -79,8 +117,13 @@ export const StyleImageModal = styled.img`
   width: 63.1%;
   height: 100vh;
 
-  @media screen and (min-width: 325px) and (max-width: 1199px) {
+  @media screen and (min-width: 325px) and (max-width: 915px) {
     width: 100%;
+  }
+
+  @media screen and (min-width: 916px) and (max-width: 1199px) {
+    width: 100%;
+    height: 100%;
   }
 `;
 
@@ -338,9 +381,13 @@ export const Styledpop33 = styled.div`
   width: 11%;
   height: 23%;
 
-  @media screen and (min-width: 325px) and (max-width: 1199px) {
+  @media screen and (min-width: 325px) and (max-width: 915px) {
     top: 54%;
     left: 55.8%;
+  }
+  @media screen and (min-width: 916px) and (max-width: 1199px) {
+    top: 58%;
+    left: 50%;
   }
 `;
 

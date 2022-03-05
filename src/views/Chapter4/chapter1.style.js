@@ -5,8 +5,13 @@ export const StyledImage = styled.img`
   height: 100vh;
   ${({ active }) => (active ? "position: fixed; z-index: 1;" : "")}
 
-  @media screen and (min-width: 325px) and (max-width: 1199px) {
+  @media screen and (min-width: 325px) and (max-width: 915px) {
     width: 100%;
+  }
+
+  @media screen and (min-width: 916px) and (max-width: 1199px) {
+    width: 100%;
+    height: 100%;
   }
 `;
 

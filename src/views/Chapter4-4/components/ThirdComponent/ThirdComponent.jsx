@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import { StyledImageMenu33 } from "../../../Chapter3-3/components/FirstComponent/firstComponent.style";
+import { StyledDescription, StyledImageMenu33 } from "../../../Chapter3-3/components/FirstComponent/firstComponent.style";
 import {
   StyledCloseModal,
+  StyledDescription6,
   StyledImageMenu45,
   Styledpop33,
   StyleImageModal00,
@@ -17,7 +18,7 @@ const ThirdComponent = (props) => {
           <div className="container">
             <div className="row">
               <div className="col-md-12 d-flex justify-content-center bla">
-                <StyledImageMenu33
+                <StyledDescription6
                   src={require("../../../../assets/images/value.png")}
                   alt="Description"
                   className="hola"
