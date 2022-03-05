@@ -3,13 +3,17 @@ import styled from "styled-components";
 export const StyledContainer = styled.div`
   position: absolute;
   top: 36.9%;
-  left: 18.5%;
-  width: 1200px;
+  left: 0%;
+  width: 1024px;
   height: 56%;
 
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     width: 100%;
     left: 0%;
+  }
+
+  @media screen and (min-width: 1920px) {
+    width: 1200px;
   }
 `;
 
@@ -81,6 +85,15 @@ export const StyledFourImage = styled.img`
   @media screen and (min-width: 916px) and (max-width: 1199px) {
     width: 70%;
     height: 70%;
+  }
+
+  @media (min-width: 1280px) and (max-width: 1919px){
+    width: 65%;
+  }
+
+  @media (min-width: 1920px){
+    width: 100%;
+  }
 `;
 
 export const StyledLink1 = styled.a`

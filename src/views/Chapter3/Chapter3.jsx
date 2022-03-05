@@ -39,6 +39,7 @@ const Chapter3 = (props) => {
           <StyledImage
             src={require("../../assets/images/chater3.png")}
             alt="Chapter 3"
+            isBackground={true}
           />
           <StyledImageButton
             src={require("../../assets/images/next.png")}

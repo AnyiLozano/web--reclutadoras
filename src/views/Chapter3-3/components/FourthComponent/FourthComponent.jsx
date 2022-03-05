@@ -8,7 +8,7 @@ const FourthComponent = () => {
         <StyledFourImage
           src={require("../../../../assets/images/cuartaimagen.png")}
           alt="Image"
-          className="animate__animated animate__fadeIn"
+          className="animate__animated animate__fadeIn hola"
         />
       </div>
     </div>

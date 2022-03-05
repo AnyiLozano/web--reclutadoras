@@ -12,6 +12,7 @@ export const StyledDescription = styled.img`
     width: 40%;
   }
 
+
   @media screen and (min-width: 916px) and (max-width: 1199px) {
     width: 50%;
     height: auto;
@@ -26,8 +27,12 @@ export const StyledDescription1 = styled.img`
   @media screen and (min-width: 916px) and (max-width: 1199px) {
     width: 65%;
     height: auto;
-`;
+  }
 
+  @media (min-width: 1280px) and (max-width: 1919px){
+    width: 60%;
+  }
+`;
 
 export const StyledImageMenu33 = styled.img`
   margin-right: 20px;
@@ -36,8 +41,6 @@ export const StyledImageMenu33 = styled.img`
     width: 70%;
     height: 60%;
   }
-
-  
 `;
 
 export const StyledImageMenu1 = styled.img`
@@ -51,8 +54,12 @@ export const StyledImageMenu1 = styled.img`
   @media screen and (min-width: 916px) and (max-width: 1199px) {
     width: 30%;
     height: 80%;
-`;
+  }
 
+  @media screen and (min-width: 1280px) and (max-width: 1919px) {
+    width: 20%;
+  }
+`;
 
 export const StyledImageMenu2 = styled.img`
   margin-right: 20px;
@@ -65,6 +72,11 @@ export const StyledImageMenu2 = styled.img`
   @media screen and (min-width: 916px) and (max-width: 1199px) {
     width: 30%;
     height: 80%;
+  }
+
+  @media screen and (min-width: 1280px) and (max-width: 1919px) {
+    width: 20%;
+  }
 `;
 
 export const StyledImageMenu3 = styled.img`
@@ -78,6 +90,11 @@ export const StyledImageMenu3 = styled.img`
   @media screen and (min-width: 916px) and (max-width: 1199px) {
     width: 40%;
     height: 80%;
+  }
+
+  @media screen and (min-width: 1280px) and (max-width: 1919px) {
+    width: 20%;
+  }
 `;
 
 export const StyleImageModal = styled.img`
@@ -89,6 +106,14 @@ export const StyleImageModal = styled.img`
 
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     width: 100%;
+  }
+
+  @media screen and (min-width: 1280px) and (max-width: 1919px) {
+    position: fixed;
+    z-index: 1;
+    top: 0%;
+    width: 75%;
+    height: 100vh;
   }
 `;
 
@@ -117,6 +142,10 @@ export const StyledCloseModal = styled.div`
     right: 6%;
     z-index: 2;
   }
+
+  @media (min-width: 1280px) and (max-width: 1919px) {
+    right: 16.4%;
+  }
 `;
 
 export const StyledOpenModal1 = styled.div`
@@ -125,6 +154,13 @@ export const StyledOpenModal1 = styled.div`
   left: 14%;
   width: 11%;
   height: 40%;
+
+  @media (min-width: 1280px) and (max-width: 1919px) {
+    top: 37.6%;
+    left: 7.8%;
+    width: 22.6%;
+    height: 15.5%;
+  }
 `;
 
 export const StyledOpenModal2 = styled.div`
@@ -133,6 +169,14 @@ export const StyledOpenModal2 = styled.div`
   left: 27%;
   width: 11%;
   height: 40%;
+
+  @media (min-width: 1280px) and (max-width: 1919px) {
+    top: 37.8%;
+    left: 69.7%;
+    width: 22.5%;
+    height: 15.2%;
+    background: red;
+  }
 `;
 
 export const StyledOpenModal3 = styled.div`
@@ -141,6 +185,7 @@ export const StyledOpenModal3 = styled.div`
   left: 40.8%;
   width: 11%;
   height: 40%;
+  background: red;
 `;
 
 export const StyledOpenModal4 = styled.div`
@@ -188,6 +233,13 @@ export const Styledpop8 = styled.div`
     width: 24.7%;
     height: 30%;
   }
+
+  @media screen and (min-width: 1280px) and (max-width: 1919px) {
+    top: 59%;
+    left: 17.9%;
+    width: 19.3%;
+    height: 40.5%;
+  }
 `;
 
 export const Styledpop9 = styled.div`
@@ -203,6 +255,13 @@ export const Styledpop9 = styled.div`
     width: 24.6%;
     height: 29%;
   }
+
+  @media screen and (min-width: 1280px) and (max-width: 1919px) {
+    top: 59%;
+    left: 39.3%;
+    width: 19.3%;
+    height: 40.5%;
+  }
 `;
 
 export const Styledpop10 = styled.div`
@@ -217,6 +276,13 @@ export const Styledpop10 = styled.div`
     left: 63.8%;
     width: 24.6%;
     height: 30%;
+  }
+
+  @media screen and (min-width: 1280px) and (max-width: 1919px) {
+    top: 59%;
+    left: 60.9%;
+    width: 19.3%;
+    height: 40.5%;
   }
 `;
 
@@ -239,6 +305,14 @@ export const Styledpop11 = styled.div`
     height: 20%;
     top: 32%;
     left: 20%;
+  }
+
+  @media screen and (min-width: 1280px) and (max-width: 1919px) {
+    top: 35.7%;
+    left: 20.9%;
+    width: 15.3%;
+    height: 14.6%;
+  }
 `;
 
 export const Styledpop12 = styled.div`
@@ -260,4 +334,12 @@ export const Styledpop12 = styled.div`
     height: 20%;
     top: 32%;
     left: 60%;
+  }
+
+  @media screen and (min-width: 1280px) and (max-width: 1919px) {
+    width: 15.5%;
+    height: 14.4%;
+    top: 36%;
+    left: 63.7%;
+  }
 `;
