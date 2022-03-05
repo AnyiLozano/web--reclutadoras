@@ -23,11 +23,17 @@ export const StyledImageText = styled.img`
 
 export const StyledImageButton = styled.img`
   position: absolute;
-  top: 39%;
+  top: 41%;
   right: 22%;
   width: 3%;
 
-  @media screen and (min-width: 325px) and (max-width: 1199px) {
+  @media screen and (min-width: 325px) and (max-width: 915px) {
+    right: 3%;
+  }
+
+  @media screen and (min-width: 916px) and (max-width: 1199px) {
+    width: 5%;
+    height: auto;
     right: 3%;
   }
 `;
