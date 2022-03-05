@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { StyledDescription, StyledImageMenu33 } from "../../../Chapter3-3/components/FirstComponent/firstComponent.style";
 import {
   StyledCloseModal,
   StyledDescription6,
