@@ -385,6 +385,13 @@ export const Styledpop11 = styled.div`
   left: 46.8%;
   width: 14%;
   height: 23%;
+
+  @media screen and (min-width: 916px) and (max-width: 1199px) {
+    width: 10%;
+    height: 30%;
+    top: 47%;
+    left: 54%;
+  }
 `;
 
 export const Styledpop12 = styled.div`
