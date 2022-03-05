@@ -68,6 +68,7 @@ export const StyledVideoModal = styled.video`
   @media screen and (min-width: 325px) and (max-width: 915px) {
     width: 100%;
     height: 100%;
+    left: 0%;
   }
 
   @media screen and (min-width: 916px) and (max-width: 1199px) {
