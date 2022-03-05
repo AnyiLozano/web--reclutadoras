@@ -118,10 +118,16 @@ export const Styledpop5 = styled.div`
   width: 21%;
   height: 23%;
 
-  @media screen and (min-width: 325px) and (max-width: 1199px) {
+  @media screen and (min-width: 325px) and (max-width: 915px) {
     top: 13.5%;
     left: -13.4%;
     width: 38%;
+    height: 31%;
+  }
+  @media screen and (min-width: 916px) and (max-width: 1199px) {
+    top: 13.5%;
+    left: 1%;
+    width: 30%;
     height: 31%;
   }
 `;
@@ -139,6 +145,13 @@ export const Styledpop6 = styled.div`
     width: 38%;
     height: 31%;
   }
+
+  @media screen and (min-width: 916px) and (max-width: 1199px) {
+    top: 13.5%;
+    left: 33%;
+    width: 30%;
+    height: 31%;
+  }
 `;
 
 export const Styledpop7 = styled.div`
@@ -148,10 +161,17 @@ export const Styledpop7 = styled.div`
   width: 21%;
   height: 23%;
 
-  @media screen and (min-width: 325px) and (max-width: 1199px) {
+  @media screen and (min-width: 325px) and (max-width: 915px) {
     top: 34%;
     left: 71.3%;
     width: 37.6%;
     height: 30.9%;
+  }
+
+  @media screen and (min-width: 916px) and (max-width: 1199px) {
+    top: 13.5%;
+    left: 65%;
+    width: 30%;
+    height: 31%;
   }
 `;

@@ -27,7 +27,7 @@ export const StyledDescription2= styled.img`
   }
 
   @media screen and (min-width: 916px) and (max-width: 1199px) {
-    width: 65%;
+    width: 60%;
     height: 100%;
   }
 `;
@@ -320,11 +320,18 @@ export const Styledpop8 = styled.div`
   width: 23%;
   height: 22%;
 
-  @media screen and (min-width: 325px) and (max-width: 1199px) {
+  @media screen and (min-width: 325px) and (max-width: 915px) {
     top: 45%;
     left: 18.8%;
     width: 19%;
     height: 25%;
+  }
+
+  @media screen and (min-width: 916px) and (max-width: 1199px) {
+    top: 34%;
+    left: 15%;
+    width: 20%;
+    height: 31%;
   }
 `;
 
@@ -335,11 +342,18 @@ export const Styledpop9 = styled.div`
   width: 23%;
   height: 22%;
 
-  @media screen and (min-width: 325px) and (max-width: 1199px) {
+  @media screen and (min-width: 325px) and (max-width: 915px) {
     top: 45%;
     left: 39.8%;
     width: 18%;
     height: 24%;
+  }
+
+  @media screen and (min-width: 916px) and (max-width: 1199px) {
+    top: 34%;
+    left: 39%;
+    width: 20%;
+    height: 31%;
   }
 `;
 
@@ -350,11 +364,18 @@ export const Styledpop10 = styled.div`
   width: 22%;
   height: 21%;
 
-  @media screen and (min-width: 325px) and (max-width: 1199px) {
+  @media screen and (min-width: 325px) and (max-width: 915px) {
     top: 45%;
     left: 60.2%;
     width: 18.3%;
     height: 24.3%;
+  }
+
+  @media screen and (min-width: 916px) and (max-width: 1199px) {
+    top: 34%;
+    left: 63%;
+    width: 20%;
+    height: 31%;
   }
 `;
 
