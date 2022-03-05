@@ -50,7 +50,7 @@ const Chapter3 = (props) => {
             <div className="col-md-12">
               <div className="container">
                 <div className="row">
-                  <div className="col-md-8 d-flex justify-content-end">
+                  <div className="col-md-8 col-sm-8 d-flex justify-content-end">
                     <StyledDescription
                       src={require("../../assets/images/top1.png")}
                       alt="Description"
@@ -59,7 +59,7 @@ const Chapter3 = (props) => {
                   </div>
 
                   {/* Cuadros */}
-                  <div className="col-md-4 mt-4">
+                  <div className="col-md-4 col-sm-4 mt-4">
                     <div className="col-md-12 mb-2">
                       <StyledImageMenu1
                         src={require("../../assets/images/cuadro1.png")}
