@@ -21,7 +21,7 @@ export const StyledDescription = styled.img`
 export const StyledDescription1 = styled.img`
   ${({ styles }) => styles}
   @media screen and (min-width: 325px) and (max-width: 915px) {
-    width: 60%;
+    width: 50%;
   }
 
   @media screen and (min-width: 916px) and (max-width: 1199px) {
