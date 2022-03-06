@@ -386,10 +386,10 @@ export const Styledpop8 = styled.div`
   height: 22%;
 
   @media screen and (min-width: 325px) and (max-width: 915px) {
-    top: 45%;
-    left: 18.8%;
-    width: 19%;
-    height: 25%;
+    top: 30%;
+    left: 16.8%;
+    width: 20%;
+    height: 58%;
   }
 
   @media screen and (min-width: 916px) and (max-width: 1199px) {
@@ -415,10 +415,11 @@ export const Styledpop9 = styled.div`
   height: 22%;
 
   @media screen and (min-width: 325px) and (max-width: 915px) {
-    top: 45%;
-    left: 39.8%;
-    width: 18%;
-    height: 24%;
+    top: 30%;
+    left: 38.8%;
+    width: 20%;
+    height: 59%;
+
   }
 
   @media screen and (min-width: 916px) and (max-width: 1199px) {
@@ -444,10 +445,11 @@ export const Styledpop10 = styled.div`
   height: 21%;
 
   @media screen and (min-width: 325px) and (max-width: 915px) {
-    top: 45%;
+    top: 30%;
     left: 60.2%;
-    width: 18.3%;
-    height: 24.3%;
+    width: 20.3%;
+    height: 58.3%;
+
   }
 
   @media screen and (min-width: 916px) and (max-width: 1199px) {
