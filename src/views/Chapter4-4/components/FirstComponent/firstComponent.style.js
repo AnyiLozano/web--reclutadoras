@@ -474,11 +474,11 @@ export const Styledpop10 = styled.div`
 `;
 
 export const Styledpop11 = styled.div`
-  position: absolute;
-  top: 64%;
-  left: 46.8%;
-  width: 14%;
-  height: 23%;
+position: absolute;
+top: 44%;
+left: 52.8%;
+width: 14%;
+height: 34%;
 
   @media screen and (min-width: 325px) and (max-width: 915px) {
     position: absolute;
@@ -505,11 +505,11 @@ export const Styledpop12 = styled.div`
 `;
 
 export const Styledpop33 = styled.div`
-  position: absolute;
-  top: 72%;
-  left: 46.8%;
-  width: 11%;
-  height: 23%;
+position: absolute;
+top: 53%;
+left: 46.8%;
+width: 11%;
+height: 34%;
 
   @media screen and (min-width: 325px) and (max-width: 915px) {
     top: 54%;
