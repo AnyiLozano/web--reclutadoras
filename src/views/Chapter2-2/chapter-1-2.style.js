@@ -94,6 +94,10 @@ export const StyledVideo1 = styled.video`
 
 export const StyledFourImage = styled.img`
   width: 40%;
+
+  @media screen and (min-width: 325px) and (max-width: 915px) {
+    width: 30%;
+  }
   @media screen and (min-width: 1920px) {
     width: 50%;
   }

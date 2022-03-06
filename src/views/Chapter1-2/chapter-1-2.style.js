@@ -102,7 +102,7 @@ export const StyledFourImage = styled.img`
 height: 80%;
 width: 50%;
   @media screen and (min-width: 325px) and (max-width: 1199px) {
-    width: 30%;
+    width: 40%;
   }
 
   @media screen and (min-width: 1920px) {
