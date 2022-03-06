@@ -47,8 +47,8 @@ export const StyledImageMenu1 = styled.img`
   margin-right: 20px;
 
   @media screen and (min-width: 325px) and (max-width: 915px) {
-    width: 40%;
-    height: 60%;
+    width: 17%;
+    height: 70%;
   }
 
   @media screen and (min-width: 916px) and (max-width: 1199px) {
@@ -65,8 +65,8 @@ export const StyledImageMenu2 = styled.img`
   margin-right: 20px;
 
   @media screen and (min-width: 325px) and (max-width: 915px) {
-    width: 40%;
-    height: 60%;
+    width: 17%;
+    height: 70%;
   }
 
   @media screen and (min-width: 916px) and (max-width: 1199px) {
@@ -83,8 +83,9 @@ export const StyledImageMenu3 = styled.img`
   margin-right: 20px;
 
   @media screen and (min-width: 325px) and (max-width: 915px) {
-    width: 40%;
-    height: 60%;
+    width: 17%;
+    height: 70%;
+
   }
 
   @media screen and (min-width: 916px) and (max-width: 1199px) {
