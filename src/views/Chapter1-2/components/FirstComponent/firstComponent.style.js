@@ -12,7 +12,7 @@ export const StyledDescription = styled.img`
   width: 70%;
 
   @media screen and (min-width: 325px) and (max-width: 915px) {
-    width: 72%;
+    width: 83%;
     height: 70%;
     margin-top: 0%;
   }
