@@ -97,7 +97,7 @@ export const StyledFourImage = styled.img`
 
   @media screen and (min-width: 325px) and (max-width: 915px) {
     width: 30%;
-    margin-top: -1%;
+    margin-top: -2%;
   }
   @media screen and (min-width: 1920px) {
     width: 50%;
