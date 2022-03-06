@@ -21,7 +21,7 @@ export const StyledDescription = styled.img`
 export const StyledDescription1 = styled.img`
   ${({ styles }) => styles}
   @media screen and (min-width: 325px) and (max-width: 915px) {
-    width: 40%;
+    width: 60%;
   }
 
   @media screen and (min-width: 916px) and (max-width: 1199px) {
@@ -294,10 +294,10 @@ export const Styledpop11 = styled.div`
   height: 15%;
 
   @media screen and (min-width: 325px) and (max-width: 915px) {
-    top: 29%;
-    left: 34.8%;
-    width: 8%;
-    height: 15%;
+    top: 31%;
+    left: 29.1%;
+    width: 11%;
+    height: 13.2%;
   }
 
   @media screen and (min-width: 916px) and (max-width: 1199px) {
@@ -323,10 +323,10 @@ export const Styledpop12 = styled.div`
   height: 17%;
 
   @media screen and (min-width: 325px) and (max-width: 1915px) {
-    top: 30%;
-    left: 57.3%;
-    width: 7.9%;
-    height: 12.8%;
+    top: 30.5%;
+    left: 59.9%;
+    width: 10.9%;
+    height: 13.2%;
   }
 
   @media screen and (min-width: 916px) and (max-width: 1199px) {
