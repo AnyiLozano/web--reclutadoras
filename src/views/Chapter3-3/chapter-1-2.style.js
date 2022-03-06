@@ -92,7 +92,7 @@ export const StyledFourImage = styled.img`
   }
 
   @media (min-width: 1920px){
-    width: 100%;
+    width: 70%;
   }
 `;
 

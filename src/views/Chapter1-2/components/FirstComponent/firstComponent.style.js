@@ -69,12 +69,21 @@ export const StyleImageModal = styled.img`
   width: 1024px;
   height: 77.5vh;
 
+  @media screen and (min-width: 1920px){
+    position: absolute;
+    z-index: 1;
+    top: -883%;
+    width: 1200px;
+    height: 77.5vh;
+  }
+
   @media screen and (min-width: 325px) and (max-width: 1199px) {
     top: -679%;
     width: 100%;
     height: 100vh;
     left: 0%;
   }
+
 `;
 
 export const StyledVideoModal = styled.video`
@@ -91,6 +100,13 @@ export const StyledVideoModal = styled.video`
     height: 100vh;
     left: 0%;
   }
+  @media screen and (min-width: 1920px){
+    position: absolute;
+    z-index: 1;
+    top: -978%;
+    width: 1200px;
+    height: 80vh;
+  }
 `;
 
 export const StyledCloseModal = styled.div`
@@ -100,6 +116,15 @@ export const StyledCloseModal = styled.div`
   top: -582%;
   right: 6%;
   z-index: 1;
+
+  @media screen and (min-width: 1920px){
+    width: 5%;
+    height: 300%;
+    position: absolute;
+    top: -882%;
+    right: 6%;
+    z-index: 1;
+  }
 `;
 
 export const StyledOpenModal1 = styled.div`

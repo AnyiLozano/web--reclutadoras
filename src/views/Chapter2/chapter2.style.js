@@ -12,6 +12,7 @@ export const StyledImage = styled.img`
 
   @media screen and (min-width: 1920px) {
     width: 1200px;
+    height: 100vh;
   }
 `;
 
