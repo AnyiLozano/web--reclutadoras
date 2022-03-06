@@ -70,9 +70,10 @@ export const StyleImageModal = styled.img`
   height: 77.5vh;
 
   @media screen and (min-width: 325px) and (max-width: 1199px) {
-    top: -772%;
+    top: -679%;
     width: 100%;
     height: 100vh;
+    left: 0%;
   }
 `;
 
@@ -85,9 +86,10 @@ export const StyledVideoModal = styled.video`
   background: black;
 
   @media screen and (min-width: 325px) and (max-width: 1199px) {
-    top: -778%;
+    top: -679%;
     width: 100%;
     height: 100vh;
+    left: 0%;
   }
 `;
 
