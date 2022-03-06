@@ -1,7 +1,7 @@
 import React from "react";
 import {
   StyledContainerSecondComponent,
-  StyledDescription,
+  StyledDescription12,
   StyledImageMenu1,
   StyledImageMenu2,
   StyledImageMenu3,
@@ -16,7 +16,7 @@ const SecondComponent = (props) => {
       <div className="container">
         <div className="row">
           <div className="col-md-8 col-sm-8 d-flex justify-content-end">
-            <StyledDescription
+            <StyledDescription12
               src={require("../../../../assets/images/description-chapter1-view2.png")}
               alt="Description"
               className="animate__animated animate__fadeInLeft"

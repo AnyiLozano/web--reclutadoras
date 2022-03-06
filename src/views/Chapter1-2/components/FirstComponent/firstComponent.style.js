@@ -27,6 +27,17 @@ export const StyledDescription = styled.img`
     
   }
 `;
+export const StyledDescription12 = styled.img`
+  ${({ styles }) => styles}
+  height: 100%;
+  width: 70%;
+
+  @media screen and (min-width: 325px) and (max-width: 915px) {
+    width: 83%;
+    height: 70%;
+    margin-top: -3%;
+  }
+`;
 
 
 export const StyledImageMenu1 = styled.img`
