@@ -46,8 +46,8 @@ export const StyledDescription1 = styled.img`
   margin-right: 5%;
 
   @media screen and (min-width: 325px) and (max-width: 1199px) {
-    margin-top: -2rem;
-    width: 40%;
+    margin-top: -1rem;
+    width: 35%;
   }
 
   @media screen and (min-width: 1280px) and (max-width: 1919px) {
@@ -158,6 +158,7 @@ export const StyleImageModal = styled.img`
   width: 63.1%;
   height: 100vh;
 
+
   @media screen and (min-width: 325px) and (max-width: 915px) {
     width: 100%;
   }
@@ -225,7 +226,12 @@ export const StyledCloseModal = styled.div`
   z-index: 2;
 
   @media screen and (min-width: 325px) and (max-width: 1199px) {
-    right: 6%;
+    right: 4%;
+    width: 10%;
+    height: 19%;
+    top: 23%;
+}
+
   }
 
   @media (min-width: 1280px) and (max-width: 1919px){
@@ -473,6 +479,14 @@ export const Styledpop11 = styled.div`
   left: 46.8%;
   width: 14%;
   height: 23%;
+
+  @media screen and (min-width: 325px) and (max-width: 915px) {
+    position: absolute;
+    top: 39%;
+    left: 46.8%;
+    width: 25%;
+    height: 53%;
+  }
 
   @media screen and (min-width: 916px) and (max-width: 1199px) {
     width: 10%;
